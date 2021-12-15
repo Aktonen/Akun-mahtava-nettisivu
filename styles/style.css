@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+html {
+    background-color: rgb(31, 37, 41);
+}
+
 * {
-    background-image: url("/pics/taustakuva.jpg");
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    background-color: rgb(31, 37, 41);
+    color: white;
+}
+
+#info {
+    padding-top: 250px;
+    background-color: rgb(31, 37, 41);
 }
 
 .l {
     padding: 10px;
+}
+
+.accordion {
+    padding-top: 20px;
+    color: white;
+}
+
+#napit {
+    background-color: rgb(31, 37, 41);
+}
+
+button[class^="btn"] {
+    background-color: rgb(31, 37, 41);
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+#oamk:hover {
+    color: blue;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #info {
+        padding-top: 100px;
+    }
 }
