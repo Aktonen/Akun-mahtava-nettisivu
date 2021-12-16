@@ -25,7 +25,9 @@ p {
     padding: 5px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+@media screen and (min-height: 1300px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
