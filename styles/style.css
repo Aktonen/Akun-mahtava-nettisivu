@@ -19,19 +19,11 @@ html {
     background-color: rgb(31, 37, 41);
 }
 
-.l {
-    padding: 10px;
-}
-
-.accordion {
-    padding-top: 20px;
-    color: white;
-}
-
 #napit {
     background-color: rgb(31, 37, 41);
 }
 
+/* task 5.1 */
 button[class^="btn"] {
     background-color: rgb(31, 37, 41);
 }

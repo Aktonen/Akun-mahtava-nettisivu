@@ -17,7 +17,8 @@ div {
     font-weight: bold;
 }
 
-img {
+/* task 5.1 */
+img[src$=".jpg"] {
     width: 500px;
 }
 
