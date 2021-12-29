@@ -1,0 +1,5 @@
+$backgroundColor : rgb(31, 37, 41);
+$font : 'Quicksand', sans-serif;
+@mixin background {
+    background-color: $backgroundColor;
+}

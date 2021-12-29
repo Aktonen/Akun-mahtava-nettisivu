@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import "./sassVariables";
+
+* {
+    font-family: $font;
+}
+
+html {
+    @include background();
+}
+
+div {
+    @include background();
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+}
+
+/* task 5.1 */
+img[src$=".jpg"] {
+    width: 500px;
+}
+
+h2, h3 {
+    padding: 10px;
+}
+
+@media screen and (min-height: 1300px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
