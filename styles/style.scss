@@ -1,31 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+$backgroundColor : rgb(31, 37, 41);
+@mixin background {
+    background-color: $backgroundColor;
+}
 
 html {
-    background-color: rgb(31, 37, 41);
+    @include background()
 }
 
 * {
     font-family: 'Quicksand', sans-serif;
 }
 
-.container {
-    background-color: rgb(31, 37, 41);
-    color: white;
-}
-
 #info {
     padding-top: 250px;
-    background-color: rgb(31, 37, 41);
+    @include background()
 }
 
 #napit {
-    background-color: rgb(31, 37, 41);
+    @include background()
 }
 
 /* task 5.1 */
 button[class^="btn"] {
-    background-color: rgb(31, 37, 41);
+    @include background();
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 h1 a {
@@ -34,11 +37,6 @@ h1 a {
 
 #oamk:hover {
     color: blue;
-}
-
-button a {
-    text-decoration: none;
-    color: white;
 }
 
 footer {

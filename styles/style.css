@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-
 html {
   background-color: #1f2529;
 }
 
 * {
   font-family: 'Quicksand', sans-serif;
-}
-
-.container {
-  background-color: #1f2529;
-  color: white;
 }
 
 #info {
@@ -27,17 +21,17 @@ button[class^="btn"] {
   background-color: #1f2529;
 }
 
+button[class^="btn"] a {
+  text-decoration: none;
+  color: white;
+}
+
 h1 a {
   text-decoration: none;
 }
 
 #oamk:hover {
   color: blue;
-}
-
-button a {
-  text-decoration: none;
-  color: white;
 }
 
 footer {
